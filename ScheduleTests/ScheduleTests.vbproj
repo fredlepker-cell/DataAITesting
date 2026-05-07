@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ScheduleTests</RootNamespace>
+    <TargetFramework>net8.0-windows</TargetFramework>
+	  <!--<StartupObject>DoTests</StartupObject>-->
+	  <StartProgram>DoTests.Main</StartProgram>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="130.0.6723.5800" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capstone_1\SeleniumTestProject\SeleniumTestProject.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
