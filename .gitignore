@@ -1,9 +1,19 @@
-# Build folders
-bin/
-obj/
+# Build Results of an IDE
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
 
 # Visual Studio
 .vs/
+.vscode/
 *.user
 *.suo
 
