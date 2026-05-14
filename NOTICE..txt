@@ -1,0 +1,3 @@
+DataAITesting is licensed under GPL v3.
+No warranty provided.
+See LICENSE file.
